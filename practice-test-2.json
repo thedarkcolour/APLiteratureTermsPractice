@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "prompt": "In the following passage from John Milton's poem Paradise Lost, which of the following devices are used?",
+      "passage": "Now to the ascent of that steep savage hill\nSatan had journeyed on, pensive and slow; \nBut further way found none; so thick entwined, \nAs one continued brake, the undergrowth \nOf shrubs and tangling bushes had perplexed \nAll path of man or beast that passed that way. \nOne gate there only was, and that looked east \nOn the other side: which when the Arch-Felon saw, \nDue entrance he disdained, and, in contempt, \nAt one slight bound high overleaped all bound \nOf hill or highest wall, and sheer within \nLights on his feet. As when a prowling wolf, \nWhom hunger drives to seek new haunt for prey, \nWatching where shepherds pen their flocks at eve, \nIn hurdled cotes amid the field secure, \nLeaps o’er the fence with ease into the fold; \nOr as a thief bent to unhoard the cash \nOf some rich burgher, whose substantial doors, \nCross-barred and bolted fast, fear no assault, \nIn at the window climbs, or o’er the tiles: \nSo clomb this first grand Thief into God’s fold;\nSo since into his Church lewd hirelings climb.",
+      "choices": [
+        { "title": "Caesura", "correct": true },
+        { "title": "Asyndeton", "correct": false },
+        { "title": "Doggerel", "correct": false },
+        { "title": "In Media Res", "correct": false },
+        { "title": "Allusion", "correct": true },
+        { "title": "Epanalepsis", "correct": false }
+      ],
+      "poetry": true
+    }
+  ]
+}

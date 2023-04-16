@@ -1,0 +1,41 @@
+{
+  "questions": [
+    {
+      "prompt": "In the following passage from Ralph Ellison's Invisible Man, which of the following devices is used?",
+      "passage": "Here upon this stage the black rite of Horatio Alger was performed to God's own acting script, with millionaires come down to portray themselves; not merely acting out the myth of their goodness, and wealth and success and power and benevolence and authority in cardboard masks, but themselves, these virtues concretely! Not the wafer and the wine, but the flesh and the blood, vibrant and alive, and vibrant even when stooped, ancient and withered. (And who, in face of this, would not believe? Could even doubt?)",
+      "choices": [
+        { "title": "Zeugma", "correct": false },
+        { "title": "Polysyndeton", "correct": true },
+        { "title": "Asyndeton", "correct": false },
+        { "title": "Litotes", "correct": false }
+      ]
+    },
+    {
+      "prompt": "In the following passage from Anthony Trollope's novel Barchester Towers, \"titular lord\" is an example of which device?",
+      "passage": "It is not my intention to breathe a word against the character of Mrs. Proudie, but still I cannot think that with all her virtues she adds much to her husband's happiness. The truth is that in matters domestic she rules supreme over her titular lord, and rules with a rod of iron. Nor is this all. Things domestic Dr. Proudie might have abandoned to her, if not voluntarily, yet willingly. But Mrs. Proudie is not satisfied with such home dominion, and stretches her power over all his movements, and will not even abstain from things spiritual. In fact, the bishop is hen-pecked.",
+      "choices": [
+        { "title": "Polysyndeton", "correct": false },
+        { "title": "Asyndeton", "correct": false },
+        { "title": "Litotes", "correct": false },
+        { "title": "Zeugma", "correct": false },
+        { "title": "Irony", "correct": true },
+        { "title": "Archetype", "correct": false }
+      ]
+    },
+    {
+      "prompt": "In the following passage from F. Scott Fitzgerald's novel The Great Gatsby, \"titular lord\" is an example of which device?",
+      "passage": "About half way between West Egg and New York the motor road hastily joins the railroad and runs beside it for a quarter of a mile, so as to shrink away from a certain desolate area of land. This is a valley of ashes — a fantastic farm where ashes grow like wheat into ridges and hills and grotesque gar-dens; where ashes take the forms of houses and chimneys and rising smoke and, finally, with a transcendent effort, of men who move dimly and already crumbling through the powdery air. Occasionally a line of gray cars crawls along an invisible track, gives out a ghastly creak, and comes to rest, and immediately the ash-gray men swarm up with leaden spades and stir up an impenetrable cloud, which screens their obscure operations from your sight. But above the gray land and the spasms of bleak dust which drift endlessly over it, you perceive, after a moment, the eyes of Doctor T. J. Eckleburg. The eyes of DoctorT. J. Eckleburg are blue and gigantic — their irises are one yard high. They look out of no face, but, instead, from a pair of enormous yellow spectacles which pass over a nonexistent nose. Evidently some wild wag of an oculist set them there to fatten his practice in the borough of Queens, and then sank down himself into eternal blindness, or forgot them and moved away. But his eyes, dimmed a little by many paintless days, under sun and rain, brood on over the solemn dumping ground.",
+      "choices": [
+        { "title": "Alliteration", "correct": true },
+        { "title": "Asyndeton", "correct": false },
+        { "title": "Plaint", "correct": false },
+        { "title": "Anadiplosis", "correct": true },
+        { "title": "Aphorism", "correct": false },
+        { "title": "Archetype", "correct": false },
+        { "title": "Antithesis", "correct": false },
+        { "title": "Bildungsroman", "correct": false },
+        { "title": "Antithesis", "correct": false }
+      ]
+    }
+  ]
+}

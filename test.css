@@ -1,0 +1,46 @@
+html {
+    color: #222;
+}
+
+body {
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 10px;
+    border-style: ridge;
+    border-width: 4px;
+    border-color: #bbb;
+}
+
+.question {
+    width: 40rem;
+}
+
+.question > form > input {
+    margin: 5px 5px;
+}
+
+.passage {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 0 0 0 4px;
+    border-color: #ccc;
+    color: #333;
+}
+
+.poetry {
+    display: grid;
+    grid-template-columns: 0.04fr 1fr;
+    column-gap: 10px;
+}
+.poem {}
+.line-numbers {
+    text-align: right;
+    justify-self: right;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.wrong-answer {
+    color: red;
+}
