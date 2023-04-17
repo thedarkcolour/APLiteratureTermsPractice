@@ -1,0 +1,71 @@
+{
+  "questions": [
+    {
+      "prompt": "Which device does this correspond to?",
+      "passage": "The old law of 'an eye for an eye' leaves everyone blind",
+      "choices": [
+        { "title": "Asyndeton", "correct": false },
+        { "title": "Doggerel", "correct": false },
+        { "title": "Aphorism", "correct": true },
+        { "title": "Allusion", "correct": false },
+        { "title": "Epanalepsis", "correct": false }
+      ]
+    },
+    {
+      "prompt": "Which device does this correspond to?",
+      "passage": "There is no 'way to peace'. Peace is the way",
+      "choices": [
+        { "title": "Polysyndeton", "correct": false },
+        { "title": "Oxymoron", "correct": false },
+        { "title": "Chiasmus", "correct": false },
+        { "title": "Paradox", "correct": false },
+        { "title": "Antimetabole", "correct": true }
+      ]
+    },
+    {
+      "prompt": "Which device does this correspond to?",
+      "passage": "Give me liberty or give me death",
+      "choices": [
+        { "title": "Antithesis", "correct": false },
+        { "title": "Alliteration", "correct": false },
+        { "title": "Anadiplosis", "correct": false },
+        { "title": "Anaphora", "correct": true },
+        { "title": "Epanalepsis", "correct": false }
+      ]
+    },
+    {
+      "prompt": "Which device does this correspond to?",
+      "passage": "Fair is foul, and foul is fair",
+      "choices": [
+        { "title": "Chiasmus", "correct": false },
+        { "title": "Malapropism", "correct": false },
+        { "title": "Antimetabole", "correct": true },
+        { "title": "Ennui", "correct": false },
+        { "title": "Synecdoche", "correct": false }
+      ]
+    },
+    {
+      "prompt": "Which device does this correspond to?",
+      "passage": "Every cloud has a silver lining.",
+      "choices": [
+        { "title": "Doggerel", "correct": false },
+        { "title": "Chiasmus", "correct": false },
+        { "title": "Anaphora", "correct": false },
+        { "title": "Aphorism", "correct": true },
+        { "title": "Deus ex machina", "correct": false },
+        { "title": "Synecdoche", "correct": false }
+      ]
+    },
+    {
+      "prompt": "Which device does this correspond to?",
+      "passage": "You will be condemned for your brilliance and contributions to society.",
+      "choices": [
+        { "title": "Malapropism", "correct": false },
+        { "title": "Anaphora", "correct": false },
+        { "title": "Doggerel", "correct": false },
+        { "title": "Aphorism", "correct": true },
+        { "title": "Synecdoche", "correct": false }
+      ]
+    }
+  ]
+}
