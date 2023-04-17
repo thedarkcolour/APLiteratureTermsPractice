@@ -58,12 +58,12 @@
     },
     {
       "prompt": "Which device does this correspond to?",
-      "passage": "You will be condemned for your brilliance and contributions to society.",
+      "passage": "I condemn you for your contributions to society.",
       "choices": [
-        { "title": "Malapropism", "correct": false },
+        { "title": "Malapropism", "correct": true },
         { "title": "Anaphora", "correct": false },
         { "title": "Doggerel", "correct": false },
-        { "title": "Aphorism", "correct": true },
+        { "title": "Aphorism", "correct": false },
         { "title": "Synecdoche", "correct": false }
       ]
     }
