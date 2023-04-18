@@ -1,0 +1,41 @@
+{
+  "questions": [
+    {
+      "prompt": "The story \"Daniel and the Lion's Den\" involves...",
+      "choices": [
+        { "title": "The first man created by God", "correct": false },
+        { "title": "A lion who symbolizes the devil and evil", "correct": false },
+        { "title": "A man who is punished by others for refusing to stop praying to God", "correct": true },
+        { "title": "The son of Abraham who had a dream of a ladder connecting heaven and earth", "correct": false }
+      ]
+    },
+    {
+      "prompt": "The following description of \"THE INDIVIDUAL\" refers to which allusion?",
+      "passage": "A Jewish man who was robbed and beaten on a bandit infester road cries for help. A Rabbi and a Levite pass without helping him, paranoid over it being a trap/trick. THE INDIVIDUAL then goes on to take the man to an inn and pay for his care.",
+      "choices": [
+        { "title": "Adam", "correct": false },
+        { "title": "Jesus", "correct": false },
+        { "title": "Joshua", "correct": false },
+        { "title": "Samaritan", "correct": true },
+        { "title": "Herod", "correct": false }
+      ]
+    },
+    {
+      "prompt": "Why did Didymus not believe that Jesus had been resurrected?",
+      "choices": [
+        { "title": "He knew that the disciples spoke of a figurative resurrection, not a literal one", "correct": false },
+        { "title": "He had not seen Jesus's scars for himself", "correct": true },
+        { "title": "He did not believe that Jesus had been killed in the first place", "correct": false },
+        { "title": "He participated in Jesus's crucifixion and ensured that Jesus could not return", "correct": false }
+      ]
+    },
+    {
+      "prompt": "How many disciples did Jesus have?",
+      "choices": [
+        { "title": "10", "correct": false },
+        { "title": "11", "correct": false },
+        { "title": "12", "correct": true }
+      ]
+    }
+  ]
+}

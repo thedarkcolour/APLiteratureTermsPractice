@@ -23,36 +23,23 @@ function setupTest(test) {
     if (question.poetry) {
       passage = document.createElement("div")
       makePoemLineNumbers(passage)
-    } else {
+    } else if ('passage' in question) {
       // paragraph
       passage = document.createElement("p")
       passage.classList.add("passage")
       passage.textContent = question.passage
     }
 
-    let answers = document.createElement("form")
-    answers.onsubmit = checkAnswers
-    let j = 0
-    for (const choice of question.choices) {
-      let answer = document.createElement("input")
-      let label = document.createElement("label")
-      answer.type = "checkbox"
-      answer.id = "q" + i + ";" + j
-      label.htmlFor = answer.id
-      label.textContent = choice.title
-
-      answers.append(answer, label, document.createElement("br"))
-      j++
-    }
-    let check = document.createElement("input")
-    check.type = "submit"
-    check.value = "Check Answer"
-    answers.appendChild(check)
-
+    let answers = makeAnswerSection(question, i)
     let feedback = document.createElement("p")
     feedback.id = "q" + i
 
-    element.append(questionNumber, prompt, passage, answers, feedback)
+    element.append(questionNumber, prompt)
+    if (passage) {
+      element.append(passage)
+    }
+    element.append(answers, feedback)
+
     body.appendChild(element)
     if (i + 1 < test.questions.length) {
       body.append(document.createElement("hr"))
@@ -81,6 +68,29 @@ function makePoemLineNumbers(passage) {
   }
 
   passage.append(lineNumbers, poem)
+}
+
+function makeAnswerSection(question, i) {
+  let answers = document.createElement("form")
+  answers.onsubmit = checkAnswers
+  let j = 0
+  for (const choice of question.choices) {
+    let answer = document.createElement("input")
+    let label = document.createElement("label")
+    answer.type = "checkbox"
+    answer.id = "q" + i + ";" + j
+    label.htmlFor = answer.id
+    label.textContent = choice.title
+
+    answers.append(answer, label, document.createElement("br"))
+    j++
+  }
+  let check = document.createElement("input")
+  check.type = "submit"
+  check.value = "Check Answer"
+  answers.appendChild(check)
+
+  return answers
 }
 
 function checkAnswers(form) {

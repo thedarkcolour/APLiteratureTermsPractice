@@ -5,7 +5,7 @@
       "passage": "The old law of 'an eye for an eye' leaves everyone blind",
       "choices": [
         { "title": "Asyndeton", "correct": false },
-        { "title": "Doggerel", "correct": false },
+        { "title": "Litotes", "correct": false },
         { "title": "Aphorism", "correct": true },
         { "title": "Allusion", "correct": false },
         { "title": "Epanalepsis", "correct": false }
@@ -13,13 +13,12 @@
     },
     {
       "prompt": "Which device does this correspond to?",
-      "passage": "There is no 'way to peace'. Peace is the way",
+      "passage": "Nothing is everything!",
       "choices": [
-        { "title": "Polysyndeton", "correct": false },
-        { "title": "Oxymoron", "correct": false },
-        { "title": "Chiasmus", "correct": false },
-        { "title": "Paradox", "correct": false },
-        { "title": "Antimetabole", "correct": true }
+        { "title": "Paradox", "correct": true },
+        { "title": "Metonymy", "correct": false },
+        { "title": "Euphemism", "correct": false },
+        { "title": "Oxymoron", "correct": false }
       ]
     },
     {
@@ -30,7 +29,7 @@
         { "title": "Alliteration", "correct": false },
         { "title": "Anadiplosis", "correct": false },
         { "title": "Anaphora", "correct": true },
-        { "title": "Epanalepsis", "correct": false }
+        { "title": "Litotes", "correct": false }
       ]
     },
     {
@@ -53,7 +52,7 @@
         { "title": "Anaphora", "correct": false },
         { "title": "Aphorism", "correct": true },
         { "title": "Deus ex machina", "correct": false },
-        { "title": "Synecdoche", "correct": false }
+        { "title": "Plaint", "correct": false }
       ]
     },
     {
@@ -65,6 +64,46 @@
         { "title": "Doggerel", "correct": false },
         { "title": "Aphorism", "correct": false },
         { "title": "Synecdoche", "correct": false }
+      ]
+    },
+    {
+      "prompt": "Which device does this correspond to?",
+      "passage": "By day the frolic, and the dance by night.",
+      "choices": [
+        { "title": "Malapropism", "correct": false },
+        { "title": "Chiasmus", "correct": true }
+      ]
+    },
+    {
+      "prompt": "Which device does this correspond to?",
+      "passage": "Eat to live, don't live to eat",
+      "choices": [
+        { "title": "Malapropism", "correct": true },
+        { "title": "Chiasmus", "correct": false }
+      ]
+    },
+    {
+      "prompt": "Which device does this correspond to?",
+      "passage": "All hands on deck!",
+      "choices": [
+        { "title": "Synecdoche", "correct": true },
+        { "title": "Metonymy", "correct": false }
+      ]
+    },
+    {
+      "prompt": "\"The part to a whole\" refers to which device?",
+      "passage": "",
+      "choices": [
+        { "title": "Synecdoche", "correct": true },
+        { "title": "Metonymy", "correct": false }
+      ]
+    },
+    {
+      "prompt": "Which of the following devices involve(s) the reversal of grammatical structure?",
+      "passage": "",
+      "choices": [
+        { "title": "Chiasmus", "correct": true },
+        { "title": "Antimetabole", "correct": true }
       ]
     }
   ]
