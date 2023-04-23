@@ -11,7 +11,7 @@
     },
     {
       "prompt": "The following description of \"THE INDIVIDUAL\" refers to which allusion?",
-      "passage": "A Jewish man who was robbed and beaten on a bandit infester road cries for help. A Rabbi and a Levite pass without helping him, paranoid over it being a trap/trick. THE INDIVIDUAL then goes on to take the man to an inn and pay for his care.",
+      "passage": "A Jewish man who was robbed and beaten on a bandit infested road cries for help. A Rabbi and a Levite pass without helping him, paranoid over it being a trap/trick. THE INDIVIDUAL then goes on to take the man to an inn and pay for his care.",
       "choices": [
         { "title": "Adam", "correct": false },
         { "title": "Jesus", "correct": false },
@@ -35,6 +35,39 @@
         { "title": "10", "correct": false },
         { "title": "11", "correct": false },
         { "title": "12", "correct": true }
+      ]
+    },
+    {
+      "prompt": "In Greek mythology, who was the first human woman?",
+      "choices": [
+        { "title": "Persephone", "correct": false },
+        { "title": "Pandora", "correct": true },
+        { "title": "Eurydice", "correct": false }
+      ]
+    },
+    {
+      "prompt": "What did Pandora's Jar/Box contain?",
+      "choices": [
+        { "title": "Human greed, pride, wrath, etc.", "correct": false },
+        { "title": "Disease, poverty, pain, hunger, war, envy, and death", "correct": true },
+        { "title": "Vast wealth which morally corrupted all women", "correct": false },
+        { "title": "Fire, water, wind, earth", "correct": false }
+      ]
+    },
+    {
+      "prompt": "Why did Cain kill Abel?",
+      "choices": [
+        { "title": "Cain discovered that Abel had taken advantage of Cain's wife's infidelity", "correct": false },
+        { "title": "Because God preferred the lamb over the bread", "correct": true },
+        { "title": "Cain was jealous of his brother for being preferred by Mary", "correct": false }
+      ]
+    },
+    {
+      "prompt": "Which of the following do Job and Daniel have in common?",
+      "choices": [
+        { "title": "Both were sons of Virgin Mary", "correct": false },
+        { "title": "Both were disciples of Jesus", "correct": false },
+        { "title": "Both were rewarded for their loyalty to God", "correct": true }
       ]
     }
   ]
