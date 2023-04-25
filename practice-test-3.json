@@ -92,7 +92,6 @@
     },
     {
       "prompt": "\"The part to a whole\" refers to which device?",
-      "passage": "",
       "choices": [
         { "title": "Synecdoche", "correct": true },
         { "title": "Metonymy", "correct": false }
@@ -100,10 +99,29 @@
     },
     {
       "prompt": "Which of the following devices involve(s) the reversal of grammatical structure?",
-      "passage": "",
       "choices": [
         { "title": "Chiasmus", "correct": true },
-        { "title": "Antimetabole", "correct": true }
+        { "title": "Antimetabole", "correct": true },
+        { "title": "Epanalepsis", "correct": false }
+      ]
+    },
+    {
+      "prompt": "Which of the following is NOT an example of epanalepsis?",
+      "choices": [
+        { "title": "Say over again, and yet once over again, That thou dost love me", "correct": false },
+        { "title": "Beloved is mine; she is Beloved", "correct": false },
+        { "title": "He is noticeable for nothing in the world except for the markedness by which he is noticeable for nothing", "correct": false },
+        { "title": "Get busy living or get busy dying.", "correct": true },
+        { "title": "Possessed by what we now no more possessed.", "correct": false }
+      ]
+    },
+    {
+      "prompt": "Which of the following is an example of Zeugma?",
+      "choices": [
+        {"title": "So many places, so little time.", "correct": false},
+        {"title": "We will swear loyalty to the crown", "correct": false},
+        {"title": "Give me liberty or give me death.", "correct": false},
+        {"title": "She broke his car and his heart.", "correct": true}
       ]
     }
   ]
